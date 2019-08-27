@@ -4,8 +4,10 @@ artificial pictures from an underlying population by approximating the distribut
 pixels.
 In the concept of GANs, a generative neural network (generator) proposes a random
 candidate, here a distribution. Subsequently, a discriminative network (discriminator) judges
-the likelihood of the candidate belonging to the population. In case a candidate resembles the
-population, it achieves a high score in terms of a probability.
+the likelihood of the candidate and the belonging to the population. 
+
+In case a candidate resembles the
+population, it achieves a high score in terms of a probability. The probability score is then fed back to improve the training of the discriminator. 
 ![GAN-Scheme](https://github.com/jurahel/GANs/blob/master/GAN_scheme.png)
 
 
