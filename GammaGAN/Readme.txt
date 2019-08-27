@@ -1,2 +1,2 @@
-#Gamma GAN
+# Gamma GAN
 This folder contains the script and the results of a GAN, which approximates a Gamma distribution.
