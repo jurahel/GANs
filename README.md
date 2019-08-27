@@ -1,2 +1,2 @@
 # GANs
-Collection of GANs with various applications
+In this repository I will collect GANs with various applications. The repsoitory will be updated continously.
