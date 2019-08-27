@@ -6,7 +6,7 @@ In the concept of GANs, a generative neural network (generator) proposes a rando
 candidate, here a distribution. Subsequently, a discriminative network (discriminator) judges
 the likelihood of the candidate belonging to the population. In case a candidate resembles the
 population, it achieves a high score in terms of a probability.
-![GAN-Scheme](jurahel.github.com/GANs/GAN_scheme.png)
+![GAN-Scheme](https://github.com/jurahel/GANs/blob/master/GAN_scheme.png)
 
 Thus, the goal of the generator is to create samples, which the discriminator cannot distinguish from the population. In the
 course of training, both the discriminator and the generator improve and finally latter samples.
