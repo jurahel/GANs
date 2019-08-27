@@ -7,7 +7,9 @@ candidate, here a distribution. Subsequently, a discriminative network (discrimi
 the likelihood of the candidate belonging to the population. In case a candidate resembles the
 population, it achieves a high score in terms of a probability.
 ![GAN-Scheme](https://github.com/jurahel/GANs/blob/master/GAN_scheme.png)
-(Source:https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiXo_TUz6LkAhVKzqQKHU9mAKIQjRx6BAgBEAQ&url=https%3A%2F%2Fmachinelearningmastery.com%2Fgenerative_adversarial_networks%2F&psig=AOvVaw3C7K6UHhsOArNu44mG-osS&ust=1566980534412224)
+
+
+(Source:https://machinelearningmastery.com/generative_adversarial_networks/)
 
 Thus, the goal of the generator is to create samples, which the discriminator cannot distinguish from the population. In the
 course of training, both the discriminator and the generator improve and finally latter samples
